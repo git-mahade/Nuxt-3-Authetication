@@ -33,7 +33,7 @@ async function onLogoutClick() {
         </PageLink>
 
         <template v-if="currentUser">
-          <PageLink v-if="!isAdmin" to="/User">
+          <PageLink to="/User">
             User
           </PageLink>
 
